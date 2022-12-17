@@ -1,6 +1,7 @@
 import React, {useEffect, useState, useStatment} from "react";
-import './App.css';
 import axios from 'axios';
+import './App.css';
+
 
 function App() {
   const [price, setPrice] = useState(0);
